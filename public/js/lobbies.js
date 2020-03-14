@@ -29,7 +29,7 @@ function searchLobbies() {
         $(".button").on("click", function() {
             localStorage.setItem("PeerChatID", $(this).attr("userID"));
             localStorage.setItem("rm_name", $(this).attr("name"));
-            // document.location.href =
+            document.location.href = "/b"
         })
     })
 
